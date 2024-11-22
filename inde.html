@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Eternal Tech Services</title>
+    <style>
+        :root {
+            --primary-color: #024e92;
+            --secondary-color: #24a845;
+            --tertiary-color: #cfe2f3;
+            --quaternary-color: #e6f6e1;
+            --accent-color: #bd255b;
+            --footer-color: #fafcfa;
+            --text-color: #333;
+            --link-hover-color: #ff9900;
+            --button-bg-color: #24a845;
+            --button-text-color: #fff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: var(--tertiary-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header {
+            background: var(--primary-color);
+            color: white;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.4em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        main {
+            background: white;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+        }
+
+        main h2 {
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+
+        main p {
+            margin: 12px 0;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        main a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+
+        main a:hover {
+            color: var(--link-hover-color);
+            border-color: var(--link-hover-color);
+        }
+
+        .cta-button {
+            background: var(--button-bg-color);
+            color: var(--button-text-color);
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: var(--accent-color);
+        }
+
+        footer {
+            background: var(--footer-color);
+            color: var(--primary-color);
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+            border-top: 2px solid var(--secondary-color);
+            font-size: 0.9em;
+        }
+
+        footer em {
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.1em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            main h2 {
+                font-size: 1.6em;
+            }
+
+            main p {
+                font-size: 8px;
+            }
+
+            .cta-button {
+                padding: 8px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Eternal Tech Services</h1>
+        <p>Innovating Technology for a Better Tomorrow</p>
+    </header>
+
+    <main>
+        <h2>Your Partner in Software Innovation</h2>
+        <p>At Eternal Tech Services, we specialize in crafting innovative software solutions that are tailored to meet the unique needs of your business. Whether you're looking to streamline operations, improve efficiency, or enhance customer engagement, our team is here to help you achieve your goals.</p>
+        <p>Our commitment to quality and security ensures that every solution we develop is reliable, scalable, and designed to help your business thrive in an increasingly digital world.</p>
+        <p>Explore how we can help you grow by visiting our official website and getting in touch with us.</p>
+
+        <p>
+            <a href="https://eternaltechservices.com" target="_blank">Learn More About Us</a>
+        </p>
+
+        <button class="cta-button" onclick="window.location.href='https://eternaltechservices.com/contact'">Contact Us</button>
+    </main>
+
+    <footer>
+        <p><em>© 2024 Eternal Tech Services. All rights reserved.</em></p>
+    </footer>
+</body>
+
+</html>

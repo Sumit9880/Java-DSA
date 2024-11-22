@@ -24,7 +24,7 @@ public class CarExample {
         Car myCar = new Car("Toyota", 2020);
 
         // Call the method to display car details
-        // myCar.displayInfo();
+        myCar.displayInfo();
         
     }
 }
